@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var person = {
+            name: 'frank',
+            complexion: 'fair',
+            height: 6.2
+        }
+
+        // function newPerson(){
+        //     person.name = 'Prosper'
+        //     person.complexion = 'dark',
+        //     person.height = 4.9
+
+        //     console.log(person.name, person.complexion, person.height);
+        // }
+
+        // newPerson()
+        // =>
+
+        function newPerson(name, complexion, height){
+            this.name = name;
+            this.complexion = complexion;
+            this.height = height;
+
+            this.changeName = (name) => {
+                this.name = name;
+            }
+        }
+
+        var person = new newPerson('Koko', 'Caramel', 6.1)
+        console.log(person.complexion, person.name);
+    </script>
+</body>
+</html>

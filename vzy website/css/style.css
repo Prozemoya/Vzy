@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+
+/* Header and navigation styling */
+header{
+    width: 100%;
+    /* height: 80px; */
+    background-color: rgb(17, 17, 17);
+}
+
+
+.head{
+    background-color: rgb(17, 17, 17);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    padding-top: 28px;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+}
+
+.head .header .logo{
+    width: 58%;
+}
+
+.head .header .nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 40%; */
+    
+}
+
+.head .header .nav ul li{
+    list-style: none;
+    padding: 0 30px 0 0;
+    font-size: 18px;
+}
+
+.head .header .nav ul li:last-child{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.head .header .nav ul li a:hover{
+    color: rgb(136, 136, 136);
+    transition: .5S;
+}
+
+
+.head .header .button a{
+    color: black;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    align-content: center;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.head .header .button a:hover{
+    background-color: rgb(136, 136, 136);
+    transition: .5S;
+}
+
+.head .header .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Body and sections styling */
+
+.firstsection{
+    margin: 170px 0 0 0;
+    text-align: center;
+}
+
+.firstsection h1{
+    text-align: center;
+    font-size: 74px;
+    /* max-width: 50px; */
+    margin-bottom: 10px;
+}
+
+.firstsection h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+}
+
+.firstsection .center h4:last-child{
+    margin-bottom: 20px;
+}
+
+.firstsection .button a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 13px 15px;
+    border-radius: 6px;
+    font-size: 17px;
+    /* margin-top: 100px; */
+}
+
+.firstsection .button a:hover{
+    background-color: rgb(136, 136, 136);
+    transition: .4S;
+}
+
+.firstsection .button{
+    padding-top: 10px;
+}
+
+
+/* Second section with image */
+.second .images{
+    /* width: 50%; */
+    margin: 100px auto;
+}
+
+.second .images img{
+    display: block;
+    max-width: 78%;
+    height: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third .center h2{
+    text-align: center;
+    font-size: 33px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexitems{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 25px;
+    width: 335px;
+    text-align: center;
+    /* height: 120px; */
+    border-radius: 12px;
+}
+
+.spanstars span img{
+    margin: 0 2px 0 0;
+}
+
+.flexitems p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.fourth{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px;
+}
+
+.fourth > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fourth .left{
+    width: 40%;
+}
+
+.fourth .left h2{
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+}
+
+.fourth .left p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(136, 136, 136);
+    font-weight: 400;
+    text-align: justify;
+}
+
+.fourth .right{
+    background-color: rgb(32, 32, 32);
+    border-radius: 13px;
+}
+
+.fifth{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px;
+}
+
+.fifth > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.fifth .left{
+    background-color: rgb(32, 32, 32);
+    border-radius: 13px;
+}
+
+.fifth .right{
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fifth .right p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgb(136, 136, 136);
+    font-weight: 400;
+    text-align: justify;
+}
+
+.fifth .right h2{
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+}
+
+.middle{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px;
+    text-align: center;
+}
+
+.middle h2{
+    font-size: 30px;
+    margin-top: 33px;
+}
+
+.middle p{
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 35px;
+    color: rgb(136, 136, 136);
+}
+
+.middle a{
+    color: black;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    align-content: center;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.middle a:hover{
+    background-color: rgb(136, 136, 136);
+    transition: .5S
+}
+
+.listbottom{
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    /* text-align: center; */
+}
+
+.listbottom ul{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listbottom ul li{
+    list-style: none;
+}
+
+.listbottom ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.listbottom ul li a:hover{
+    color: rgb(136, 136, 136);
+    transition: .5S;
+}
+
+.social{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a{
+    background-color: rgb(32, 32, 32);
+    padding: 12px;
+    border-radius: 4px;
+    width: 42px;
+    height: 40px;
+}
+
+.social a:hover{
+    background-color: rgb(22, 22, 22);
+    transition: .5S;
+}
+
+#middle{
+    margin-top: 65px;
+}
+
+.hr{
+    width: 78%;
+    height: 0.25px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: rgb(136, 136, 136);
+    /* border-color: rgb(136, 136, 136); */
+}
